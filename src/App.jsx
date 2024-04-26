@@ -1,0 +1,26 @@
+// src/App.jsx
+
+const Product = () => {
+  return (
+    <div>
+      <h2>Cookies</h2>
+      <p>Price: 999 credits</p>
+    </div>
+  );
+};
+
+export default function App() {
+  return (
+    <div>
+      <h1>Products</h1>
+
+      <Product />
+      <Product />
+      <Product />
+    </div>
+  );
+}
+
+export function Profile() {
+  return <img src="https://i.imgur.com/MK3eW3Am.jpg" alt="Katherine Johnson" />;
+}
