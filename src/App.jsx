@@ -1,26 +1,17 @@
-// src/App.jsx
+import { Profile } from './components/Profile/Profile';
+import FriendList from './components/FriendList/FriendList';
+import users from './assets/users.json';
 
-const Product = () => {
+const App = () => {
   return (
-    <div>
-      <h2>Cookies</h2>
-      <p>Price: 999 credits</p>
-    </div>
+    <>
+      <div>
+        <h1>App</h1>
+      </div>
+      <Profile users={users} />
+      <FriendList />
+    </>
   );
 };
 
-export default function App() {
-  return (
-    <div>
-      <h1>Products</h1>
-
-      <Product />
-      <Product />
-      <Product />
-    </div>
-  );
-}
-
-export function Profile() {
-  return <img src="https://i.imgur.com/MK3eW3Am.jpg" alt="Katherine Johnson" />;
-}
+export default App;
