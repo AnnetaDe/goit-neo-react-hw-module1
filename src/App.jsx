@@ -1,5 +1,6 @@
 import { Profile } from './components/Profile/Profile';
 import FriendList from './components/FriendList/FriendList';
+import FriendListItem from './components/FriendListItem/FriendListItem';
 import Transactions from './components/Transactions/Transactions';
 import users from './assets/users.json';
 import friends from './assets/friends.json';
