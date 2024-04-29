@@ -5,6 +5,7 @@
   color: green;
 }
 .friends {
+  font-family: var(--font-family);
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -16,6 +17,8 @@
   padding: 10px;
   border: 1px solid #000;
   border-radius: 5px;
+  font-size: 16px;
+  box-shadow: var(--main-box-shadow);
 }
 .friend img {
   width: 75px;

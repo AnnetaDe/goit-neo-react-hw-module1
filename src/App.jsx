@@ -9,9 +9,6 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <div>
-        <h1>App</h1>
-      </div>
       <Profile users={users} />
       <FriendList friends={friends} />
       <Transactions transactions={transactions} />

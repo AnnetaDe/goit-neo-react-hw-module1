@@ -1,9 +1,12 @@
 .wrapper {
+  font-family: var(--font-family);
   margin: 0 auto;
   width: 350px;
   display: block;
-  outline: 3px solid var(--main-border-color);
+  border: 3px solid var(--main-border-color);
+  box-shadow: var(--main-box-shadow);
   border-radius: 5px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 .picture_container {
@@ -39,14 +42,13 @@
   list-style: none;
 }
 .stats li {
+  background-color: var(--main-bg-color-light);
   text-align: center;
-  border-top: 2px solid #9d1f71;
-  border-right: 2px solid #9d1f71;
+  border-top: var(--main-border-color) 2px solid;
+  border-right: var(--main-border-color) 2px solid;
   padding: 15px;
+  font-weight: 800;
 }
 .stats li:last-child {
   border-right: none;
-}
-.stats li span:nth-child(2) {
-  color: #9d1f71;
 }
