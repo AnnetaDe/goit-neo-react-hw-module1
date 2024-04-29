@@ -8,11 +8,11 @@ import './App.css';
 
 const App = () => {
   return (
-    <>
+    <div className="main_wrapper">
       <Profile users={users} />
       <FriendList friends={friends} />
       <Transactions transactions={transactions} />
-    </>
+    </div>
   );
 };
 
