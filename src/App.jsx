@@ -1,6 +1,10 @@
 import { Profile } from './components/Profile/Profile';
 import FriendList from './components/FriendList/FriendList';
+import Transactions from './components/Transactions/Transactions';
 import users from './assets/users.json';
+import friends from './assets/friends.json';
+import transactions from './assets/transactions.json';
+import './App.css';
 
 const App = () => {
   return (
@@ -9,7 +13,8 @@ const App = () => {
         <h1>App</h1>
       </div>
       <Profile users={users} />
-      <FriendList />
+      <FriendList friends={friends} />
+      <Transactions transactions={transactions} />
     </>
   );
 };

@@ -1,0 +1,23 @@
+.offline {
+  color: red;
+}
+.online {
+  color: green;
+}
+.friends {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.friend {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.friend img {
+  width: 75px;
+  height: 75px;
+}
