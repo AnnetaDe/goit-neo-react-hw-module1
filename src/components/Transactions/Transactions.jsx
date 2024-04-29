@@ -11,8 +11,8 @@ const Transactions = ({ transactions }) => {
       </thead>
 
       <tbody>
-        {transactions.map((transaction, index) => (
-          <tr key={index}>
+        {transactions.map(transaction => (
+          <tr key={transaction.id}>
             <td>{transaction.type}</td>
             <td>{transaction.amount}</td>
             <td>{transaction.currency}</td>
